@@ -1,0 +1,45 @@
+// Menu list
+.menu-list {
+    justify-content: flex-start;
+    min-width: 223px;
+    font-weight: 500;
+}
+
+.item-popper {
+    padding-bottom: 8px;
+}
+
+.menu-item {
+    display: inline-flex;
+    padding: 10px 12px;
+    min-height: 42px;
+
+    &:hover {
+        background: rgba(22, 24, 35, 0.03);
+    }
+}
+
+// Item có gạch ngang
+.cross {
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+}
+
+.header-menu {
+    position: relative;
+    height: 50px !important;
+    margin-top: -8px;
+    padding: 13px 0;
+}
+
+.back-btn {
+    font-size: 20px;
+    height: 100%;
+    width: 50px;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

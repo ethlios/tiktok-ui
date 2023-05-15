@@ -1,0 +1,25 @@
+.search-list {
+    .circle {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: rgba(22, 24, 35, 0.34);
+        margin-right: 10px;
+    }
+
+    li {
+        padding: 9px 16px;
+        cursor: pointer;
+        display: flex;
+        -moz-box-align: center;
+        align-items: center;
+    }
+
+    li:hover {
+        background-color: rgba(22, 24, 35, 0.06);
+    }
+}
+
+.text {
+    font-weight: 500;
+}
